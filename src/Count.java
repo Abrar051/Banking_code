@@ -5,7 +5,7 @@ public class Count {
 	public static void main (String args[])
 	{
 		System.out.printf("Enter your withdrawal amount : ");
-	    int money = Withdraw.nextInt();
+	        int money = Withdraw.nextInt();
 		System.out.println(money);
 		System.out.print("Enter your account type : 1 credit 2 debit and 3 savings  ");
 		String Acctype = Withdraw.next();
